@@ -1,0 +1,81 @@
+:root{
+    --primary-color: #003366;
+    --secondary-color: #00509e;
+    --highlight-color: #d4af37;
+    --primary-font: "Roboto";
+    --primary-font-weight: 400;
+    --primary-font-style: normal;
+    --secondary-font: "Syne";
+    --secondary-font-weight: 400;
+    --secondary-font-style: normal;
+}
+
+@font-face {
+    font-family: "Syne";
+    src: url('../fonts/Syne-VariableFont_wght.ttf');
+    font-style: var(--secondary-font-style);
+    font-weight: var(--secondary-font-weight);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: var(--secondary-font);
+    font-style: var(--secondary-font-style);
+    font-weight: var(--secondary-font-weight);
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+}
+
+#nav-list{
+}
+
+.nav-item{
+    display: inline;
+    margin: 10px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    
+}
+
+#container {
+    display: flexbox;
+}
+
+
+#content{
+    display: flex;
+    /* margin: 20px; */
+}
+
+.quadros{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape p{
+    padding: 10px;
+}
+
